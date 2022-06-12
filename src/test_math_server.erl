@@ -48,7 +48,7 @@
 %% External functions
 %% ====================================================================
 appl_start([])->
-    application:start(test_add).
+    application:start(test_math).
 
 %% ====================================================================
 %% Server functions

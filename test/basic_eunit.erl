@@ -23,7 +23,7 @@
 %% Returns: List({HostId,Ip,SshPort,Uid,Pwd}
 %% --------------------------------------------------------------------
 start()->
-    ok=application:start(test_math),
+    ok=test_math_server:appl_start([]),
     pong=test_math_server:ping(),
     42=test_math_server:add(20,22),
     42=test_math_server:sub(64,22),
