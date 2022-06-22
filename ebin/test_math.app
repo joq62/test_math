@@ -5,6 +5,6 @@
               {mod,{test_math_app,[]}},
               {applications,[kernel,stdlib]},
               {env,[]},
-              {modules,[test_math_app,test_math_server,test_math_sup]},
+              {modules,[test_math,test_math_app,test_math_sup]},
               {licenses,["Apache 2.0"]},
               {links,[]}]}.

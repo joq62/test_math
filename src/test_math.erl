@@ -7,7 +7,7 @@
 %%% 
 %%% Created : 10 dec 2012
 %%% -------------------------------------------------------------------
--module(test_math_server).  
+-module(test_math).  
 
 -behaviour(gen_server). 
 
@@ -48,7 +48,7 @@
 %% External functions
 %% ====================================================================
 appl_start([])->
-    application:start(test_math).
+    application:start(?MODULE).
 
 %% ====================================================================
 %% Server functions
